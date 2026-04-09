@@ -23,6 +23,7 @@ The pipeline integrates data from multiple sources, transforms and validates the
 **Flow:**
 
 Source → Staging → Transformation (Clean Layer) → Data Warehouse
+
 ---
 
 ## ETL Process Overview
@@ -72,13 +73,13 @@ This project follows a structured Software Testing Life Cycle (STLC) for validat
 
 ---
 
-## 📸 Screenshots & Demo
+## Screenshots & Demo
 
 (Screenshots and demo videos will be added here)
 
 ---
 
-## ⚠️ Note
+## Note
 
 This repository contains documentation and QA artifacts only.
 
@@ -86,7 +87,7 @@ ETL design files (.ktr/.kjb) are intentionally not included to maintain project 
 
 ---
 
-## 🚀 Future Enhancements (Phase 2)
+## Future Enhancements (Phase 2)
 
 - Automation using Python
 - SQL-based validation scripts
@@ -94,6 +95,6 @@ ETL design files (.ktr/.kjb) are intentionally not included to maintain project 
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Harikrishnaveni
