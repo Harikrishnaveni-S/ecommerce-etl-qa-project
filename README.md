@@ -1,97 +1,67 @@
-# E-Commerce ETL Pipeline with End-to-End QA Validation
+# E-Commerce ETL Pipeline with QA Validation
 
-## Project Overview
+## Overview
 
-This project simulates a real-world data engineering and QA scenario, covering both ETL development and structured testing lifecycle (STLC).
-It demonstrates how data pipelines are validated in real-world scenarios to ensure data quality, consistency, and reliability.
-
-The pipeline integrates data from multiple sources, transforms and validates the data, and loads it into a Data Warehouse using a dimensional model.
-
----
-
-## Objectives
-
-- Integrate multi-source data (Shopify & Amazon)
-- Implement incremental data loading
-- Perform data cleaning and validation
-- Design a star schema data warehouse
-- Execute end-to-end QA testing of ETL pipeline
+End-to-end ETL pipeline integrating **Shopify (DB)** and **Amazon (CSV)** data, with a strong focus on **data quality validation using STLC (Software Testing Life Cycle)**.
 
 ---
 
 ## Architecture
 
 **Flow:**
-
-Source → Staging → Transformation (Clean Layer) → Data Warehouse
-
----
-
-## ETL Process Overview
-
-1. Extract data from:
-   - Shopify (Database)
-   - Amazon (CSV file)
-
-2. Load into staging layer
-
-3. Perform transformations:
-   - Data cleaning
-   - Standardization
-   - Deduplication
-   - Validation
-
-4. Load into:
-   - Product Dimension
-   - Customer Dimension
-   - Sales Fact Table
-
-5. Capture and log error records
+Source → Staging → Clean Layer → Data Warehouse
 
 ---
 
-## Data Warehouse Model
+## QA Focus
 
-- **Fact Table:**
-  - Sales
+This project emphasizes **ETL testing**, including:
 
-- **Dimension Tables:**
-  - Product
-  - Customer
+* Requirement analysis
+* Test scenarios & test cases
+* Data validation using SQL
+* Defect logging & tracking
+* End-to-end test execution
 
----
-
-## QA Approach
-
-This project follows a structured Software Testing Life Cycle (STLC) for validating the ETL pipeline:
-
-- Requirement Analysis (Business-level validation)
-- Test Planning
-- Test Scenario & Test Case Design
-- Data Validation using SQL
-- Error handling and rejection validation
-- Edge case and negative testing
+See full QA artifacts in `qa/`
 
 ---
 
-## Screenshots & Demo
+## Repository Structure
 
-(Screenshots and demo videos will be added to showcase ETL workflow and execution)
+```plaintext
+qa/             → Test cases, execution, defects, RTM  
+etl_design/     → ETL transformation logic  
+architecture/   → Data model & flow  
+sql/            → Validation queries  
+assets/         → Screenshots & diagrams  
+```
+
+---
+
+##  Snapshots
+
+*(Add screenshots here later)*
+
+### ETL Job Workflow
+![Job](assets/screenshots/spoon_job.png)
+
+---
+
+## Highlights
+
+* Multi-source ETL pipeline
+* Incremental data processing
+* Data cleansing & deduplication
+* Star schema data warehouse
+* Realistic ETL defect simulation
+
 ---
 
 ## Note
 
-This repository contains documentation and QA artifacts only.
-
-ETL design files (.ktr/.kjb) are intentionally not included to maintain project integrity and ownership.
-
----
-
-## Future Enhancements (Phase 2)
-
-- Automation using Python
-- SQL-based validation scripts
-- CI/CD pipeline integration
+ETL `.ktr/.kjb` files are not included.
+This repository focuses on **design, validation, and QA perspective**.
 
 ---
 
