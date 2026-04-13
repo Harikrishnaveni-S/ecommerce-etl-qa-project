@@ -98,3 +98,8 @@ This document describes the logical design of ETL transformations implemented us
 - Missing keys
 - Logged into:
   - etl_error_orders
+ 
+
+## Sample Transformation
+
+![Transformation](../assets/screenshots/transformation_sample.png)
