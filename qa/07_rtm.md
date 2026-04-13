@@ -62,10 +62,10 @@ To establish traceability between business requirements, test scenarios, test ca
 
 This RTM ensures:
 
-- ✔ Full visibility of test coverage  
-- ✔ Easy impact analysis of defects  
-- ✔ Clear linkage between requirements and validation  
-- ✔ Improved audit readiness  
+- Full visibility of test coverage  
+- Easy impact analysis of defects  
+- Clear linkage between requirements and validation  
+- Improved audit readiness  
 
 ---
 
