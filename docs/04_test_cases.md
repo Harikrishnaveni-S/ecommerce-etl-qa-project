@@ -1,4 +1,4 @@
-# 🧪 Test Cases – E-Commerce ETL Pipeline
+# Test Cases – E-Commerce ETL Pipeline
 
 ## 1. Source Layer Validation
 
