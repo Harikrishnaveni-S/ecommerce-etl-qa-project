@@ -34,8 +34,8 @@ See full QA artifacts in `qa/`
 qa/             → Test cases, execution, defects, RTM  
 etl_design/     → ETL transformation logic  
 architecture/   → Data model & flow  
-sql/            → Validation queries  
-assets/         → Screenshots & diagrams  
+validation/            → Validation queries  
+images/         → Screenshots & diagrams  
 ```
 
 ---
