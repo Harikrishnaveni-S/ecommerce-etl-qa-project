@@ -164,4 +164,4 @@ Verified that the target table was truncated/empty prior to the test run to ensu
 
 ### Sample B: Fact Table State (Post-Execution)
 Verified that the ETL pipeline successfully mapped surrogate keys, calculated the `total_price`, and handled the `source` identification.
-![Fact After Run](../images/fact_after_run.jpg)
+![Fact After Run](../images/fact_after_run.png)
