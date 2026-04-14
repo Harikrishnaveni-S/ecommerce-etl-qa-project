@@ -44,6 +44,7 @@ This document describes the logical design of ETL transformations implemented us
 - Loads using:
   - Insert/Update into staging_orders
 
+![Amazon Extraction](../images/ktr_extract_amazon.png)
 ---
 
 ## 4. clean_staging_data
@@ -71,6 +72,7 @@ This document describes the logical design of ETL transformations implemented us
 - Loaded into:
   - stg_clean_orders
 
+![Data Transformation](../images/ktr_transform_data.png)
 ---
 
 ## 5. load_dw_tables
@@ -85,6 +87,7 @@ This document describes the logical design of ETL transformations implemented us
   - email = 'UNKNOWN'
 - Load into dim_customer
 
+![Load Dimensions](../images/ktr_load_dim_tables.png)
 ---
 
 ## 6. load_fact_sales
@@ -101,7 +104,4 @@ This document describes the logical design of ETL transformations implemented us
 - Logged into:
   - etl_error_orders
  
-
-## Sample Transformation
-
-![Transformation](../assets/screenshots/transformation_sample.png)
+![Load Fact Sales](../images/ktr_load_fact.png)
