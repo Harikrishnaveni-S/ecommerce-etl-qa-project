@@ -11,7 +11,7 @@ This document describes the logical design of ETL transformations implemented us
 - Reads `last_run_time` from `etl_control`
 - Sets variable:
   - `LAST_SHOPIFY_RUN`
-
+![Control Flow](../images/get_last_run.png)
 ---
 
 ## 2. extract_shopify_data
