@@ -4,6 +4,7 @@
 
 End-to-end ETL pipeline integrating **Shopify (DB)** and **Amazon (CSV)** data, with a strong focus on **data quality validation using STLC (Software Testing Life Cycle)**.
 
+
 ---
 
 ## Architecture
@@ -39,12 +40,9 @@ assets/         → Screenshots & diagrams
 
 ---
 
-##  Snapshots
-
-*(Add screenshots here later)*
-
 ### ETL Job Workflow
-![Job](assets/screenshots/spoon_job.png)
+
+![Pentaho Spoon Master Job](images/etl_job.png)
 
 ---
 
