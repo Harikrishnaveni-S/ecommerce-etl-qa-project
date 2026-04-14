@@ -68,4 +68,4 @@ Invalid records are redirected to:
 ## Master Job Orchestration
 This image shows the end-to-end execution flow of the pipeline, ensuring that extractions complete before transformations and loads begin.
 
-![Master Job Flow](../images/etl_job.png)
+![Master Job Flow](../images/)
