@@ -61,4 +61,11 @@ Invalid records are redirected to:
 ## Incremental Processing
 
 - Controlled using `etl_control` table  
-- Uses `last_updated` to extract only new/updated data  
+- Uses `last_updated` to extract only new/updated data
+
+---
+
+## Master Job Orchestration
+This image shows the end-to-end execution flow of the pipeline, ensuring that extractions complete before transformations and loads begin.
+
+![Master Job Flow](../images/etl_job.png)
