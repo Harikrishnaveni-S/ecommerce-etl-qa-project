@@ -11,6 +11,7 @@ This document describes the logical design of ETL transformations implemented us
 - Reads `last_run_time` from `etl_control`
 - Sets variable:
   - `LAST_SHOPIFY_RUN`
+ 
 ![Control Flow](../images/get_last_run.png)
 ---
 
@@ -29,6 +30,7 @@ This document describes the logical design of ETL transformations implemented us
 - Captures:
   - max(last_updated)
 
+![Shopify Extraction](../images/ktr_extract_shopify.png)
 ---
 
 ## 3. extract_amazon_data
