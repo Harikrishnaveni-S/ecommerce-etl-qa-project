@@ -150,3 +150,18 @@ The ETL pipeline was tested thoroughly using structured QA practices.
 Several realistic data issues were identified during testing (incremental logic, deduplication, error handling), demonstrating strong validation coverage.
 
 These findings reflect real-world ETL challenges and were documented with proper defect tracking.
+
+
+---
+
+## Appendix: Execution Samples
+
+Below are the database state captures used to verify the successful transition of data into the Data Warehouse.
+
+### Sample A: Fact Table State (Pre-Execution)
+Verified that the target table was truncated/empty prior to the test run to ensure no residual data impacted the results.
+![Fact Before Run](../images/fact_before_run.png)
+
+### Sample B: Fact Table State (Post-Execution)
+Verified that the ETL pipeline successfully mapped surrogate keys, calculated the `total_price`, and handled the `source` identification.
+![Fact After Run](../images/fact_after_run.jpg)
